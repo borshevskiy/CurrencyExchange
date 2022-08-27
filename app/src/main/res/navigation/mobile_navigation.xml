@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/popular_screen">
+
+    <fragment
+        android:id="@+id/popular_screen"
+        android:name="com.borshevskiy.currencyexchangetestapp.presentation.PopularFragment"
+        android:label="@string/title_popular"
+        tools:layout="@layout/fragment_popular">
+        <action
+            android:id="@+id/action_popular_screen_to_filterFragment"
+            app:destination="@id/filterFragment" />
+        <argument
+            android:name="popularFilter"
+            app:argType="string"
+            android:defaultValue='""' />
+    </fragment>
+
+    <fragment
+        android:id="@+id/favorites_screen"
+        android:name="com.borshevskiy.currencyexchangetestapp.presentation.FavoritesFragment"
+        android:label="@string/title_favorites"
+        tools:layout="@layout/fragment_favorites">
+        <action
+            android:id="@+id/action_favorites_screen_to_filterFragment"
+            app:destination="@id/filterFragment" />
+        <argument
+            android:name="favoritesFilter"
+            app:argType="string"
+            android:defaultValue='""' />
+    </fragment>
+    <fragment
+        android:id="@+id/filterFragment"
+        android:name="com.borshevskiy.currencyexchangetestapp.presentation.FilterFragment"
+        android:label="@string/title_sorting"
+        tools:layout="@layout/fragment_filter" >
+        <action
+            android:id="@+id/action_filterFragment_to_favorites_screen"
+            app:destination="@id/favorites_screen" />
+        <action
+            android:id="@+id/action_filterFragment_to_popular_screen"
+            app:destination="@id/popular_screen" />
+        <argument
+            android:name="screenType"
+            app:argType="string"
+            android:defaultValue='""' />
+    </fragment>
+</navigation>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidProjects/CurrencyExchangeTestApp/app/src/main/res/drawable/ic_favorite.xml" value="0.248" />
+        <entry key="..\:/AndroidProjects/CurrencyExchangeTestApp/app/src/main/res/drawable/ic_filter.xml" value="0.196" />
+        <entry key="..\:/AndroidProjects/CurrencyExchangeTestApp/app/src/main/res/drawable/ic_query.xml" value="0.196" />
+        <entry key="..\:/AndroidProjects/CurrencyExchangeTestApp/app/src/main/res/drawable/ic_search.xml" value="0.196" />
+        <entry key="..\:/AndroidProjects/CurrencyExchangeTestApp/app/src/main/res/drawable/ic_star_clicked.xml" value="0.248" />
+        <entry key="..\:/AndroidProjects/CurrencyExchangeTestApp/app/src/main/res/drawable/ic_star_unclicked.xml" value="0.248" />
+        <entry key="..\:/AndroidProjects/CurrencyExchangeTestApp/app/src/main/res/layout/activity_main.xml" value="0.35280797101449274" />
+        <entry key="..\:/AndroidProjects/CurrencyExchangeTestApp/app/src/main/res/layout/currency_item.xml" value="0.22" />
+        <entry key="..\:/AndroidProjects/CurrencyExchangeTestApp/app/src/main/res/layout/dropdown_item.xml" value="0.18802083333333333" />
+        <entry key="..\:/AndroidProjects/CurrencyExchangeTestApp/app/src/main/res/layout/fav_currency_item.xml" value="0.36231884057971014" />
+        <entry key="..\:/AndroidProjects/CurrencyExchangeTestApp/app/src/main/res/layout/fragment_favorites.xml" value="0.18802083333333333" />
+        <entry key="..\:/AndroidProjects/CurrencyExchangeTestApp/app/src/main/res/layout/fragment_filter.xml" value="0.18802083333333333" />
+        <entry key="..\:/AndroidProjects/CurrencyExchangeTestApp/app/src/main/res/layout/fragment_popular.xml" value="0.25" />
+        <entry key="..\:/AndroidProjects/CurrencyExchangeTestApp/app/src/main/res/menu/bottom_nav_menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/AndroidProjects/CurrencyExchangeTestApp/app/src/main/res/menu/menu_toolbar.xml" value="0.18802083333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

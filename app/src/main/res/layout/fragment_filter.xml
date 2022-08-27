@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".presentation.FilterFragment">
+
+    <TextView
+        android:id="@+id/filter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/filter_text"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/filter">
+
+        <TextView
+            android:id="@+id/name_filter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/name_filter"
+            android:textSize="15sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/filter" />
+
+        <RadioButton
+            android:id="@+id/name_asc"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:text="@string/ascending" />
+
+        <RadioButton
+            android:id="@+id/name_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:text="@string/descending" />
+
+        <TextView
+            android:id="@+id/value_filter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/value_filter"
+            android:textSize="15sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/filter" />
+
+        <RadioButton
+            android:id="@+id/value_asc"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:text="@string/ascending" />
+
+        <RadioButton
+            android:id="@+id/value_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:text="@string/descending" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/sortButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup"
+        android:layout_marginTop="5dp"
+        android:text="@string/sort"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
